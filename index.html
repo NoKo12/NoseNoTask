@@ -1,0 +1,41 @@
+<html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="Sortable.min.js"></script><!--ソート用コード-->
+<script src="crentTime.js"></script>
+</head>
+<body>
+    <div id =header>
+        <div id ="currentDate"></div>
+        <div id ="nowTime"></div>
+    </div>
+	<div id ="main">
+		<div id ="taskNote">
+			<div id="taskErea"></div>
+			<div id ="menuErea">
+			<button id = "taskAdd"  onclick ="taskAdd()">追加</button>
+			</div>
+		</div>
+		<div id ="stickydisp" onclick="stickydisp()"></div>
+		<div id="Stickynote">
+			<button id = "memoAdd"  onclick ="memoAdd()">追加</button>
+		</div>
+	</div>
+    <script src="taskapp.js"></script>	
+    <!--<script src="memoAdd.js"></script>-->
+	<script src="stickyapp.js"></script>
+	<!--<script src="taskAdd.js"></script>
+	<script src="doneTask.js"></script>
+	<script src="clsTask.js"></script>
+	<script src="daytimedel.js"></script>
+
+	<script src="memoDrag.js"></script>
+	<script src="clsSticky.js"></script>
+	<script src="enterEn.js"></script>-->
+	<script src="stickydisp.js"></script>
+</body>
+</html>
+  
