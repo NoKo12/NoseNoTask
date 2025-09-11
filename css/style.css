@@ -45,8 +45,8 @@
     background:#dee7e6;
   }
 
-  #taskNote > #menuErea{
-    position:absolute;
+  #menuErea{
+    position:fixed;
     bottom:7%;
     left:25%;
     width: 50%;
